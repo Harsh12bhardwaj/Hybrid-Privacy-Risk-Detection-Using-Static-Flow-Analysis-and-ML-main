@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "threat_dashboard.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "threat_dashboard.css",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "threat_dashboard.js",
+      "use": "@vercel/static"
+    }
+  ]
+}
